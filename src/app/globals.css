@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+body {
+  background: rgba(23, 31, 33, 1);
+  color: #fff;
+}
+.wrapper {
+  display: flex;
+  .sideBar {
+    display: flex;
+  }
+  .layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    footer {
+      margin-top: auto;
+    }
+  }
+}
