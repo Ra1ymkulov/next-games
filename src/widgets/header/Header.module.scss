@@ -1,0 +1,46 @@
+.header {
+  padding-block: 15px;
+  background-color: #1b2121;
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.666);
+    }
+    button {
+      background-color: #3bfb82;
+      padding: 6px 11px;
+      font-size: 23px;
+      border: none;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .option {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-left: auto;
+      select option {
+        background-color: #3bfb82;
+        color: black;
+      }
+      select,
+      .entrar {
+        background: none;
+        border: none;
+        color: white;
+        background: none;
+      }
+      button {
+        padding: 8px 15px;
+        font-size: 13px;
+        gap: 10px;
+        font-weight: 200;
+      }
+    }
+  }
+}

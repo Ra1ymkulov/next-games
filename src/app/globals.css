@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin-inline: auto;
 }
 body {
@@ -20,6 +19,7 @@ body {
     display: flex;
   }
   .layout {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
